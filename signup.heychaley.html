@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<!DOCTYPE html>
+<html>
+<head>
+	
+
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript" src="main.js"></script>
+
+	<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport"
+	content="width=device-width,initial-scale=">
+	<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+	body{
+		margin: 0;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	.topnav {
+		overflow: hidden;
+		background-color: #333;
+	}
+
+	.topnav a {
+		float: left;
+		display: block;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+	}
+
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.topnav a.active {
+	background-color: #04AA6D;
+	color: white;
+}
+
+.topnav .icon {
+	display: none;
+}
+
+@media screen and (max-width: 600px) {
+	.topnav a:not(:first-child){display: none;}
+	.topnav a.icon {
+		float: right;
+		display: block;
+	}
+}
+
+@media screen and (max-width:600px) {
+	.topnav.responsive {position:relative;}
+	.topnav.responsive .icon {position: absolute;
+		right: 0
+}
+	.topnav.responsive a {
+		float: none;
+		display: block;
+		text-align: left
+	}
+}
+</style>
+
+    <title class = "title-header">Register | Sign Up</title>
+
+</head>
+
+<body>
+<div class="topnav"
+id="myTopnav">
+	<a href="home.html"
+	class="active">Home</a>
+	<a href="login.heychaley.html">Login</a>
+	<a href="signup.heychaley.html">SignUp</a>
+	<a href="#contactcenter">Contact Center</a>
+	<a href="javascript:void(0);"class="icon"
+	onclick="myfunction()">
+	<i class="fa fa-bars"></i>
+</a>
+</div>
+
+ <style>
+          body{font-family: arial; font-size: 16px}
+          fieldset {background:teal; border:4px solid pale pink; width: 520px; margin-bottom:50px; text-align: center;
+
+          }
+          label {width: 180px; display:inline-block; }
+          .text {text-align: top}
+          textarea {width: 360px; height:50px;}
+          .up {text-align: top; text-align: center;}    
+          p1 {background: none; color: white; padding: 5px 5px 5px 5px; word-spacing: 10px; vertical-align: middle; text-align: center;}
+          p2 {background: none; color: white; padding: 5px 5px 5px 5px; word-spacing: 3px; vertical-align: middle;text-align: center}
+          label:hover {font-size:24px}
+          input:hover {font-size:24px}
+        
+    </style>
+<div style="padding-left:16px">
+	<h1></h1>
+	<p></p>
+</div>
+<script>
+	function myFunction() {
+		var x =
+		document.getElementById("myTopnav");
+		if (x.className === "topnav") {
+			x,className += " responsive";
+		} else {
+			x.className = "topnav";
+		}
+	}
+	</script>
+
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript" src="main.js"></script>
+	
+
+<div class
+	
+
+<h2>Please Enter Your Details For Registration!</h2>
+<form action="https://ihome.ust.hk/~rossiter/cgi-bin/show_everything.php" enctype="multipart/form-data" method="post">
+  <fieldset>
+        <legend>Your Face</legend>
+             <label for="avatar" class="text, up"> Your image:</label>
+                 <input img id="preview" name="image" type="file" required><br>
+                 <img id="preview"> 
+                     <label class="text, up">Image preview:</label><wbr>
+<!-- It's a live code that puts in the actual size preview of image.
+ I don't know why the script of teacher doesn't work no matter where it was in code!
+ <div> <legend>Your Face</legend>
+             <label for="avatar" class="text, up"> Your image:</label>
+                 <input img id="preview" accept="image/*" onchange="loadFile(event)" name="image" type="file" required><br>
+                     <p>Image preview:</p> <wbr>     
+                     <img id="output"/>
+ </div>  
+<script>
+      var loadFile = function (event){
+      var output = document.getElementById ('output');
+      output.src = URL.createObjectURL (event.target.files [0]);
+      };
+</script> 
+-->
+   </fieldset>
+    <fieldset>
+         <legend>Your General Details</legend>
+
+           <label for="name" class="text, up">Name:</label>
+                <input type="text, up" name="name" placeholder="Your full name" required><br>
+           <label for="gender" class="text, up"> Gender:</label> 
+                <input type="radio" name="gender" value="M">Male<wbr>
+                <input type="radio" name="gender" value="F" required>Female<br>
+
+          
+            <label for="age" class="text, up">Age:</label>
+                  <input type="number" min="0" max="99" step="1" value="18" id="age" name="age" required><br>
+
+              <label for="bday" class="text, up">Date of birth:</label>
+                  <input type="date" name="bday" required><br>
+
+              <label for="color" class="text, up">Favorite color:</label>
+                  <input type="color" name="color" required><br>
+
+              <label for="country" class="text, up">Which country:</label>
+                   <select name="country" id="country" required>
+                          <option value=""></option>
+                          <option value="Ukraine">Ukraine</option>
+                          <option value="Indonesia">Indonesia</option>
+                          <option value="India">India</option>
+                          <option value="France">France</option>
+                          <option value="Japan">Japan</option>
+                          <option value="Ghana">Ghana</option>
+                          <option value="Nigeria">Nigeria</option>
+                          <option value="Togo">Togo</option>
+                          <option value="South Africa">South Africa</option>
+                   </select>
+    </fieldset>
+    <fieldset>
+      <legend>Your Indicators</legend>
+
+      <div>    
+              <label for="heigh" class="text, up">Height:</label>
+               <p2 class="content1">Short</p2><wbr>
+                   <input type="range" name="heigh" min="0" max="100"><wbr>
+                 <p1>Tall</p1><br>
+        </div>
+            
+        <div>
+              <label class="text, up">Salary:</label><wbr>
+                <p2 class="content">Poor</p2><wbr>
+                     <input type="range" name="salary" min="0" max="100"><wbr>
+                  <p1>Rich</p1>
+        </div>  
+    </fieldset>
+    <fieldset>
+        <legend>Your Contact Information</legend>
+            <label for="email" class="text, up">Email:</label>
+                 <input type="email" name="email" required><br>
+
+            <label for="mobile" class="text, up">Mobile:</label>
+                  <input type="tel" name="mobile" required><br>
+
+            <label for="address" class="text, up">Address:</label>
+                  <textarea name="address" required></textarea><br>
+
+            <label for="contact" class="text, up">Method to contact you:</label>
+                  <input type="checkbox" name="email">Email<wbr>
+                  <input type="checkbox" name="Whatsapp">Whatsapp<wbr>
+                  <input type="checkbox" name="InAppChat">In-app chat<br>
+    </fieldset>
+            <input type="submit" id="submit" name="submit" value="Submit!"><br>
+</form>
+
+
+
+</body>
+</html>
+	
+
+<div class
+	
+
+</body>
+</html>
+	
+
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript" src="main.js"></script>
+	
+
+<div class
+	
+
+</body>
+</html>
